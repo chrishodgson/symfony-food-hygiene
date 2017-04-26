@@ -1,6 +1,6 @@
 {
     "name": "chrishodgson/symfony-food-hygene",
-    "description": "Small web application to show a summary of food hygiene ratings across the establishments in a local authority. Built using PHP 7.1 & Symfony 3.",
+    "description": "Small web application built using PHP 7.1 & Symfony 3 to show a summary of food hygiene ratings across the establishments in a local authority.",
     "keywords": ["symfony3", "php71", "restful-api"],
     "license": "MIT",
     "type": "project",

@@ -1,7 +1,7 @@
 Introduction 
 ========
 
-Small web application to show a summary of food hygiene ratings across the establishments in a local authority. Built using PHP 7.1 & Symfony 3.
+Small web application built using PHP 7.1 & Symfony 3 to show a summary of food hygiene ratings across the establishments in a local authority.
 
 Assumptions
 ========
