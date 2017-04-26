@@ -1,7 +1,7 @@
 {
     "name": "chrishodgson/symfony-food-hygene",
-    "description": "PHP 7.1 / Symfony 3 web application which allows you to store code snippets grouped into stories and projects.",
-    "keywords": ["symfony3", "doctrine2", "php71"],
+    "description": "PHP 7.1 & Symfony 3 web application to show a summary by percentage for food hygiene ratings of establishments across a selected local authority.",
+    "keywords": ["symfony3", "php71", "restful-api"],
     "license": "MIT",
     "type": "project",
     "authors": [

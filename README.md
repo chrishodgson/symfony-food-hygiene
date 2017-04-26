@@ -1,8 +1,7 @@
 Introduction 
 ========
 
-A simple web application to show a summary by percentage of the food hygiene ratings of establishments across a local selected authority. 
-It has been built using PHP 7.1 and Symfony 3.
+A PHP 7.1 & Symfony 3 web application to show a summary by percentage for food hygiene ratings of establishments across a selected local authority. 
 
 Assumptions
 ========
@@ -13,7 +12,7 @@ Installation
 ========
 
 - eee `System Requirements` below
-- clone the repository: `git@github.com:chrishodgson/symfony-food-hygiene.git` 
+- clone the repository: `git clone https://github.com/chrishodgson/symfony-food-hygiene.git` 
 - cd into the repository folder and run composer: `composer install`
 - serve the application: `php bin/console server:start`
 - Visit `http://127.0.0.1:8000` in a web browser
