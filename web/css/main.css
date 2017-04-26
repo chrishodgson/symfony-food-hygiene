@@ -1,0 +1,11 @@
+
+.form-inline {
+    margin: 10px 0
+}
+.form-inline .form-control {
+    margin-right: 10px
+}
+
+.form-inline .control-label {
+    margin-right: 5px
+}

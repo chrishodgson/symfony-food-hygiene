@@ -1,0 +1,39 @@
+parameters:
+
+services:
+    app.food_hygene.establishment_list_transformer:
+        class: AppBundle\Transformer\Establishment\EstablishmentListTransformer
+
+    app.food_hygene.establishment_hydrator:
+        class: AppBundle\Hydrator\Establishment\EstablishmentHydrator
+        public: false
+
+    app.food_hygene.establishment_list_hydrator:
+        class: AppBundle\Hydrator\Establishment\EstablishmentListHydrator
+        public: false
+        arguments:
+            - '@app.food_hygene.establishment_hydrator'
+
+    app.food_hygene.establishment_mapper:
+        class: AppBundle\Mapper\Establishment\EstablishmentMapper
+        arguments:
+            - '@app.food_hygene.establishment_list_hydrator'
+
+
+    app.food_hygene.local_authority_list_transformer:
+        class: AppBundle\Transformer\LocalAuthority\LocalAuthorityListTransformer
+
+    app.food_hygene.local_authority_hydrator:
+        class: AppBundle\Hydrator\LocalAuthority\LocalAuthorityHydrator
+        public: false
+
+    app.food_hygene.local_authority_list_hydrator:
+        class: AppBundle\Hydrator\LocalAuthority\LocalAuthorityListHydrator
+        public: false
+        arguments:
+            - '@app.food_hygene.local_authority_hydrator'
+
+    app.food_hygene.local_authority_mapper:
+        class: AppBundle\Mapper\LocalAuthority\LocalAuthorityMapper
+        arguments:
+            - '@app.food_hygene.local_authority_list_hydrator'
